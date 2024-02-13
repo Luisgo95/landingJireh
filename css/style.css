@@ -105,11 +105,12 @@ body {
 	-webkit-font-smoothing: subpixel-antialiased;
 	letter-spacing: .03em;
 }
-
+/*aqui 108*/
 @media (min-width: 768px) {
 	body {
 		font-size: 16px;
 		line-height: 1.5;
+		
 	}
 }
 
@@ -11079,7 +11080,8 @@ html.rd-navbar-fixed-linked .page {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 30px 0 40px;
+	padding: 0px 0 1px;
+    height: 100px;
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-main-outer {
